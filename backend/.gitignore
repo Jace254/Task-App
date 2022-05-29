@@ -1,0 +1,12 @@
+# testing
+
+# dependencies
+/node_modules
+
+# misc
+.env
+
+# production
+/build
+
+npm-debug.log*
