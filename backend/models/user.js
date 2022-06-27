@@ -19,15 +19,11 @@ const userSchema = new Schema({
         type: [],
         default: null   
     },
-    device: {
-        type: String,
-        required: true
-    },
     avatar: {
         type: String
     }
 },{
-    timestamps: true,
+    timestamps: true
 });
 
 module.exports = mongoose.model('user', userSchema);
